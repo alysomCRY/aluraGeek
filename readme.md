@@ -1,0 +1,1 @@
+Projeto da escola alura ,aonde eu estou aperfeiçoando meu conhecimento em html e css,e como extra estou adicionando algumas funções  com javaScrpt. 
