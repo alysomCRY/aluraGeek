@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+.main-principal {
+    height: 352px;
+    background: url("imagens/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.main-texto {
+    gap: 20px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+    
+}
+.main-texto .texto-promo1 {
+    display: flex;
+    color: white;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 52px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.main-texto .texto-promo2 {
+    margin-right: 50px;
+    color: white;
+    font-size: 22px;
+    line-height: 26px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.texto-consoles{
+    font-size: 19px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: white;
+    background: #2A7AE4;
+    width: 150px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 2px solid #2A7AE4;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.main-principal a {
+    text-decoration: none;
+}
+.main-principal a:hover p {
+    font-size: 18px;
+}
+input::placeholder {
+    font-weight: bold;
+    padding-left: 10px;
+}
+textarea::placeholder {
+    font-weight: bold;
+    padding-left: 10px;
+}

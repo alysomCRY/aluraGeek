@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+    text-decoration: none;
+}
+.produto {
+    display: flex;
+    padding: 80px 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    gap: 100px;
+    border-bottom: 2px solid wheat;
+}
+.descricao {
+    width: 400px;
+    height: 174px;
+    
+    
+}
+.descricao h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #464646;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    
+}
+
+.produtos-similares .ver-produto {
+   color: #001eff;
+
+}
+.preco-descricao {
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #464646;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.descricao p {
+    color: #464646;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.produtos,.img1 {
+    box-sizing: border-box;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+.texto-similares {
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #464646;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.similares {
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.similares img {
+    box-sizing: border-box;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+.similares h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #464646;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.similares p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #464646;
+    margin: 8px 0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.ver-produto1:hover {
+    cursor: pointer;
+}

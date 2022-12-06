@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+.login-produtos {
+    margin-right: 152px;
+}
+.nav-produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    box-sizing: border-box;
+    border: 2px solid #2A7AE4;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.nav-produtos p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;;
+
+}
+.addprodutos{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 0 auto;
+    gap: 15px;
+}
+.addprodutos input {
+    width: 559px;
+    height: 56px;
+    box-sizing: border-box;
+    border: 2px solid rgb(106, 106, 106);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.addprodutos textarea {
+    width: 559px;
+    height: 82px;
+    box-sizing: border-box;
+    border: 2px solid rgb(106, 106, 106);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.addprodutos .produtos-h2 {
+    margin-top: 10px;
+}
+.addprodutos h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.addprodutos .produtos-h1 {
+    margin-right: 200px;
+}
+.addprodutos h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    color: white;
+}
+.addprodutos .produtos-h2 {
+    width: 559px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 2px solid #2A7AE4;
+    border-radius: 5px;
+    background-color: #2A7AE4;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.addprodutos a {
+    text-decoration: none;
+}
