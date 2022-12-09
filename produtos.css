@@ -8,7 +8,7 @@
 .topostar {
     display: flex;
     justify-content: space-around;
-    gap: 700px;
+    gap: 300px;
     align-items: center;
     margin-top: 20px;
     margin: 10px;
@@ -44,8 +44,6 @@
     justify-content: space-around;
     gap: 1030px;
     align-items: center;
-    margin-top: 20px;
-    margin: 10px;
     width: auto;
     height: 50px;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
@@ -60,6 +58,7 @@
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
  }
  .topostar1 p {
+    display: flex;
     margin: 0 auto;
     text-decoration: none;
     font-family: 'Raleway';
@@ -73,7 +72,7 @@
 .topostar2 {
     display: flex;
     justify-content: space-around;
-    gap: 700px;
+    gap: 350px;
     align-items: center;
     margin-top: 20px;
     margin: 10px;
@@ -152,3 +151,24 @@
     padding-top: 10px;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
  }
+.botao01 {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #005eff;
+    font-weight: bold;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+}
+.botao01:hover {
+    font-size: 14px;
+}
+.home {
+    display: flex;
+    position: absolute;
+    padding-right: 250px;
+}
