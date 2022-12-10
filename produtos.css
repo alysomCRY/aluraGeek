@@ -22,7 +22,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    color: #464646;
+    color: black;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 .topostar p {
@@ -54,7 +54,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    color: #464646;
+    color: black;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
  }
  .topostar1 p {
@@ -86,7 +86,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    color: #464646;
+    color: black;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
  }
  .topostar2 p {
@@ -126,7 +126,7 @@
     font-size: 17px;
     line-height: 16px;
     padding-bottom: 10px;
-    color: #464646;
+    color: black;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 .preco {
